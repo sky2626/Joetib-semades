@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 export default function Navbar(){
 
   return(
-    <nav className="flex  flex-row  ">
+    <nav className="flex  flex-row  justify-between">
       <Link to='/' className="flex ">
-        
         <img 
-        className="h-10 w-10" 
+        className="h-12 w-12" 
         src="./src/assets/Semades.png" 
         alt="img of semades" />
-
-        Sema 
-        <span>Des</span>
+        <div className="flex flex-col font-Cascadia">
+          Sema 
+          <span>Des</span>
+        </div>
       </Link>
       
       <ul className="flex flex-row gap-6"> 
