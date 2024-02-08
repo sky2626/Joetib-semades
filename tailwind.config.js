@@ -9,7 +9,7 @@ export default {
       colors: {
         pro: {
           100: '#5CD6B6',
-          200: '#fffff',
+          200: '#151515',
         },
       },
 
