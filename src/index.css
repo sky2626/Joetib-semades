@@ -4,5 +4,5 @@
 
 @font-face {
     font-family: "Cascadia";
-    src: url("../public/fonts/Cascadia.ttf");
+    src: url("./src/fonts/Cascadia.ttf");
   }
