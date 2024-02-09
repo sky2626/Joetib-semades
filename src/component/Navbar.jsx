@@ -11,9 +11,9 @@ export default function Navbar(){
         className="h-14 w-10" 
         src="./src/assets/Semades.png" 
         alt="img of semades" />
-        <div className="flex text-white flex-col font-Cascadia">
+        <div className="flex text-pro-100 p-3 font-semibold font-Cascadia">
           Sema 
-          <span className="text-pro-100">Des</span>
+          <span className="text-white font-semibold">des</span>
         </div>
       </Link>
       
