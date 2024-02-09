@@ -17,7 +17,7 @@ export default function Navbar(){
         </div>
       </Link>
       
-      <ul className="hiden md:flex md:flex-row md:gap-6 md:p-3 "> 
+      <ul className="flex flex-row gap-6 p-3 "> 
         <li>
           <Link to='/' className="font-Cascadia font-semibold text-white hover:text-pro-100 ">Home</Link>
         </li>
