@@ -67,9 +67,9 @@ export default function Home(){
                     </Link>
                 </div>
                 <div 
-                className="">
+                className="flex justify-center md:flex-row">
                     <div 
-                    className="bg-pro-200">
+                    className="">
                         <div className="bg-">
                             <Card
                                 imageSrc="./src/assets/web.svg"
@@ -86,18 +86,21 @@ export default function Home(){
                         </div>
                     </div>
                     <div 
-                    className="bg-pro-300">
-                         <Card
-                            imageSrc="./src/assets/web.svg"
-                            title="Card Title"
-                            description="This is a sample card description." 
-                        />
-                         <Card
-                            imageSrc="./src/assets/web.svg"
-                            title="Card Title"
-                            description="This is a sample card description." 
-                        />
-
+                    className="">
+                        <div className="bg-">
+                            <Card
+                                imageSrc="./src/assets/web.svg"
+                                title="Card Title"
+                                description="This is a sample card description." 
+                            />
+                        </div>
+                        <div className="bg-">
+                            <Card
+                                imageSrc="./src/assets/web.svg"
+                                title="Card Title"
+                                description="This is a sample card description." 
+                            />
+                        </div>
                     </div>
 
                 </div>
