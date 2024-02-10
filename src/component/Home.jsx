@@ -35,12 +35,16 @@ export default function Home(){
                 </div>
                 <img className="hidden md:block md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
             </div>
-            <div className='bg-black '>
-                <div className="flex justify-center flex-col p-12">
-                    <h2 className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
+            <div 
+            className='bg-black '>
+                <div 
+                className="flex justify-center flex-col p-12">
+                    <h2 
+                    className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
                         Our Services
                     </h2>
-                    <h1 className='text-white font-semibold text-center md:text-start text-5xl '>
+                    <h1 
+                    className='text-white font-semibold text-center md:text-start text-5xl '>
                         What we <span className='text-pro-100'>do</span>
                     </h1>
                     <div className='bg-pro-100 rounded-sm h-2 w-20 ml-12 mt-1'></div>
@@ -50,7 +54,11 @@ export default function Home(){
                         and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
                         enable computers to learn from data and make predictions or decisions without explicit programming.
                     </p>
-                    <Link to='/services' className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center'>learn more</Link>
+                    <Link 
+                    to='/services' 
+                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-120'>
+                        learn more
+                    </Link>
                     
                 </div>
                 <div className="">
