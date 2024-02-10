@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import React from 'react';
+import Card from './miniComp/card';
+
+
 
 export default function Home(){
     const [showMore, setShowMore] = useState(false);
@@ -35,6 +39,8 @@ export default function Home(){
                 </div>
                 <img className="hidden md:block md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
             </div>
+
+           {/*  our services */}
             <div 
             className='bg-black '>
                 <div 
@@ -63,11 +69,34 @@ export default function Home(){
                 <div 
                 className="">
                     <div 
-                    className="bg-pro-300">
-                        
+                    className="bg-pro-200">
+                        <div className="bg-">
+                            <Card
+                                imageSrc="./src/assets/web.svg"
+                                title="Card Title"
+                                description="This is a sample card description." 
+                            />
+                        </div>
+                        <div className="bg-">
+                            <Card
+                                imageSrc="./src/assets/web.svg"
+                                title="Card Title"
+                                description="This is a sample card description." 
+                            />
+                        </div>
                     </div>
                     <div 
                     className="bg-pro-300">
+                         <Card
+                            imageSrc="./src/assets/web.svg"
+                            title="Card Title"
+                            description="This is a sample card description." 
+                        />
+                         <Card
+                            imageSrc="./src/assets/web.svg"
+                            title="Card Title"
+                            description="This is a sample card description." 
+                        />
 
                     </div>
 
