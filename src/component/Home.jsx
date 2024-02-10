@@ -42,9 +42,9 @@ export default function Home(){
 
            {/*  our services */}
             <div 
-            className='bg-black flex-col md:flex-row'>
+            className='bg-black flex flex-col md:flex-row'>
                 <div 
-                className="flex justify-center flex-col p-12">
+                className="md:w-1/2 items-center justify-center flex-col p-12">
                     <h2 
                     className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
                         Our Services
@@ -62,47 +62,44 @@ export default function Home(){
                     </p>
                     <Link 
                     to='/services' 
-                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-120'>
+                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-1/2'>
                         learn more
                     </Link>
                 </div>
+                
                 <div 
-                className="flex justify-center flex-col md:flex-row">
+                className="md:w-1/2 items-center justify-center">
                     <div 
-                    className="flex flex-col justify-center ">
-                        <div className="bg-pro-200 w-56">
+                    className="grid gap-6 md:grid-cols-2 ">
+                        <div className="bg-pro-200 w-64 md:w-56 rounded-lg">
                             <Card
                                 imageSrc="./src/assets/web.svg"
-                                title="Card Title"
+                                title="Web Development"
                                 description="This is a sample card description." 
                             />
                         </div>
-                        <div className="w-56">
+                        <div className="bg-gradient-to-t from-pro-300 to-pro-200 w-62 md:w-56 rounded-lg">
                             <Card
-                                imageSrc="./src/assets/web.svg"
-                                title="Card Title"
+                                imageSrc="./src/assets/ai.svg"
+                                title="Artificial Intelligence"
+                                description="This is a sample card description." 
+                            />
+                        </div>
+                        <div className="bg-gradient-to-t from-pro-300 to-pro-200 w-62 md:w-56 rounded-lg">
+                            <Card
+                                imageSrc="./src/assets/cloud.svg"
+                                title="Cloud DevEng"
+                                description="This is a sample card description." 
+                            />
+                        </div>
+                        <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
+                            <Card
+                                imageSrc="./src/assets/ui.svg"
+                                title="UI/UX Design"
                                 description="This is a sample card description." 
                             />
                         </div>
                     </div>
-                    <div 
-                    className="flex flex-col justify-center">
-                        <div className="w-56">
-                            <Card
-                                imageSrc="./src/assets/web.svg"
-                                title="Card Title"
-                                description="This is a sample card description." 
-                            />
-                        </div>
-                        <div className="w-56">
-                            <Card
-                                imageSrc="./src/assets/web.svg"
-                                title="Card Title"
-                                description="This is a sample card description." 
-                            />
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
