@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Navbar(){
 
   return(
-    <nav className="bg-pro-200 flex  flex-row  justify-between p-2 md:px-10">
+    <nav className="bg-pro-200 flex  flex-row  justify-between  md:px-28">
       <Link to='/' className="flex gap-1">
         <img 
         className="h-14 w-10" 
