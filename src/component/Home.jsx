@@ -42,7 +42,7 @@ export default function Home(){
 
            {/*  our services */}
             <div 
-            className='bg-black flex flex-col md:flex-row'>
+            className='bg-black flex p-12 flex-col md:flex-row'>
                 <div 
                 className="md:w-1/2 items-center justify-center flex-col p-12">
                     <h2 
@@ -70,8 +70,8 @@ export default function Home(){
                 <div 
                 className="md:w-1/2 items-center justify-center">
                     <div 
-                    className="grid gap-6 md:grid-cols-2 ">
-                        <div className="bg-pro-200 w-64 md:w-56 rounded-lg">
+                    className="grid gap-6 grid-cols-1 md:grid-cols-2 ">
+                        <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
                             <Card
                                 imageSrc="./src/assets/web.svg"
                                 title="Web Development"
