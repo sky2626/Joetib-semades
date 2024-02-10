@@ -42,7 +42,7 @@ export default function Home(){
 
            {/*  our services */}
             <div 
-            className='bg-black '>
+            className='bg-black flex-col md:flex-row'>
                 <div 
                 className="flex justify-center flex-col p-12">
                     <h2 
@@ -67,17 +67,17 @@ export default function Home(){
                     </Link>
                 </div>
                 <div 
-                className="flex justify-center md:flex-row">
+                className="flex justify-center flex-col md:flex-row">
                     <div 
-                    className="">
-                        <div className="bg-">
+                    className="flex flex-col justify-center ">
+                        <div className="bg-pro-200 w-56">
                             <Card
                                 imageSrc="./src/assets/web.svg"
                                 title="Card Title"
                                 description="This is a sample card description." 
                             />
                         </div>
-                        <div className="bg-">
+                        <div className="w-56">
                             <Card
                                 imageSrc="./src/assets/web.svg"
                                 title="Card Title"
@@ -86,15 +86,15 @@ export default function Home(){
                         </div>
                     </div>
                     <div 
-                    className="">
-                        <div className="bg-">
+                    className="flex flex-col justify-center">
+                        <div className="w-56">
                             <Card
                                 imageSrc="./src/assets/web.svg"
                                 title="Card Title"
                                 description="This is a sample card description." 
                             />
                         </div>
-                        <div className="bg-">
+                        <div className="w-56">
                             <Card
                                 imageSrc="./src/assets/web.svg"
                                 title="Card Title"

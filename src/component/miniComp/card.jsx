@@ -3,13 +3,13 @@ import React from 'react';
 
 const Card = ({ imageSrc, title, description }) => {
   return (
-    <>
-      <img className='h-36 w-36' src={imageSrc} alt={title} />
-      <div className="card-content">
-        <h2 className='text-white text-center'>{title}</h2>
+    <div className='flex flex-col p-6 justify-center'>
+      <img className='h-36 md:' src={imageSrc} alt={title} />
+      <div className="pt-3">
+        <h2 className='text-white text-center font-bold'>{title}</h2>
         <p className='text-slate-500 text-center'>{description}</p>
       </div>
-    </>
+    </div>
   );
 };
 
