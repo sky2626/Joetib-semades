@@ -59,9 +59,17 @@ export default function Home(){
                     className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-120'>
                         learn more
                     </Link>
-                    
                 </div>
-                <div className="">
+                <div 
+                className="">
+                    <div 
+                    className="bg-pro-300">
+                        
+                    </div>
+                    <div 
+                    className="bg-pro-300">
+
+                    </div>
 
                 </div>
 
