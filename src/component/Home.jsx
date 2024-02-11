@@ -138,20 +138,24 @@ export default function Home(){
             </div>
 
             {/* Contact Us */}
-            <div>
+            <div className='flex '>
                 <div 
-                class="">
+                class="flex flex-col gap-2 items-center justify-center md:justify-start md:items-start ">
                     <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 p-4 "
+                    class="rounded-lg text-lg bg-pro-300 h-6 w-68 md:w-96 p-5 "
                     type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
                     <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 p-4 "
+                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
                     type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
                     <textarea 
-                    class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
-                    id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
+                    className='bg-pro-300 rounded-lg p-4 text-lg md:w-96 '
+                    name="message" id="message" placeholder="Please write your message here." cols="30" rows="5"></textarea>
+                    <button 
+                    class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2 md:w-96">
+                        Submit
+                    </button>
                 </div>
-                <img className='hidden md:block h-68 ' src="./src/assets/support.svg " alt="img of support" />
+                <img className='hidden md:block h-58 ' src="./src/assets/support.svg " alt="img of support" />
             </div>
             
         </div>
