@@ -44,7 +44,7 @@ export default function Home(){
             <div 
             className='bg-black flex p-12 flex-col md:flex-row'>
                 <div 
-                className="md:w-1/2 items-center justify-center flex-col p-12">
+                className="md:w-1/2 flex-col">
                     <h2 
                     className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
                         Our Services
@@ -62,13 +62,13 @@ export default function Home(){
                     </p>
                     <Link 
                     to='/services' 
-                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-1/2'>
+                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center '>
                         learn more
                     </Link>
                 </div>
                 
                 <div 
-                className="md:w-1/2 items-center justify-center">
+                className="md:w-1/2 ">
                     <div 
                     className="grid gap-6 grid-cols-1 md:grid-cols-2 ">
                         <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
