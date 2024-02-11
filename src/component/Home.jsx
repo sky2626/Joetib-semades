@@ -37,14 +37,14 @@ export default function Home(){
                     className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 '>
                         Tackling a wide range of global issues is our main core focus. Education,Bussiness, Human Rights, Poverty Alleviation, Global Connectivity, and health fall in our scope.</p>}
                 </div>
-                <img className="hidden md:block md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
+                <img className="hidden md:block max-w-full md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
             </div>
 
            {/*  our services */}
             <div 
-            className='bg-black flex p-12 flex-col md:flex-row'>
+            className='bg-black flex p-12 md:pl-28 flex-col md:flex-row'>
                 <div 
-                className="md:w-1/2 flex-col">
+                className="md:w-1/2 flex-col flex gap-3">
                     <h2 
                     className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
                         Our Services
@@ -53,8 +53,8 @@ export default function Home(){
                     className='text-white font-semibold text-center md:text-start text-5xl '>
                         What we <span className='text-pro-100'>do</span>
                     </h1>
-                    <div className='bg-pro-100 rounded-sm h-2 w-20 ml-12 mt-1'></div>
-                    <p className='bg-pro-300 mt-8 p-4 text-white rounded-lg md:w-120 '>
+                    <div className='bg-pro-100 rounded-sm h-2 w-20 ml-12'></div>
+                    <p className='bg-pro-300 p-4 text-white rounded-lg md:w-96 '>
                         web development encompasses the creation of websites and web applications, involving front-end, back-end, databases, and hosting.
                         Cloud infrastructure and services to create, deploy, and manage applications with advantages such as scalability, cost efficiency, 
                         and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
@@ -62,13 +62,13 @@ export default function Home(){
                     </p>
                     <Link 
                     to='/services' 
-                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center '>
+                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-96'>
                         learn more
                     </Link>
                 </div>
                 
                 <div 
-                className="md:w-1/2 ">
+                className="md:w-1/2 mt-10">
                     <div 
                     className="grid gap-6 grid-cols-1 md:grid-cols-2 ">
                         <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
@@ -100,7 +100,7 @@ export default function Home(){
                             />
                         </div>
                     </div>
-                </div>
+                </div> 
 
             </div>
         </div>
