@@ -147,10 +147,11 @@ export default function Home(){
                     <input
                     class="rounded-lg text-lg bg-pro-300 h-6 p-4 "
                     type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
+                    <textarea 
+                    class="rounded-lg text-white text-lg bg-slate-800 p-4 " 
+                    id="subject" name="subject" placeholder="Please write your message here." style="height:120px" required></textarea>
                 </div>
                 <img className='hidden md:block h-68 ' src="./src/assets/support.svg " alt="img of support" />
-
-                
             </div>
             
         </div>
