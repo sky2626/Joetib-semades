@@ -5,16 +5,18 @@ import Card from './miniComp/card';
 
 
 
+
+
 export default function Home(){
     const [showMore, setShowMore] = useState(false);
    
     
     function handleMoreClick() {
         setShowMore(!showMore);
-      }
-    
+    }
     return(
         <div className="bg-pro-200 ">
+            
            {/*  Hero section */}
             <div 
             className="bg-gradient-to-l from-pro-300 flex flex-col md:flex-row gap-1" >
@@ -42,7 +44,7 @@ export default function Home(){
 
            {/*  our services */}
             <div 
-            className='bg-black flex p-12 md:pl-28 flex-col md:flex-row'>
+            className='bg-black flex p-12 py-20 md:pl-28 flex-col md:flex-row'>
                 <div 
                 className="md:w-1/2 flex-col flex gap-3">
                     <h2 
@@ -103,6 +105,38 @@ export default function Home(){
                 </div> 
 
             </div>
+
+            {/* about us */}
+            <div className="p-12 md:p-24 flex flex-row gap-16">
+                <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
+                <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
+                    <h2 className='text-white font-semibold text-2xl'>
+                        About us
+                    </h2>
+                    <h1 className='text-white font-semibold text-3xl md:text-5xl'>
+                     We Use <span className='text-pro-100 font-semibold text-3xl md:text-5xl'> Creativity</span> to Get Our Clients. 
+                    </h1>
+                    <div className='bg-pro-100 rounded-sm h-2 w-20'></div>
+                    <p className='text-white mt-2'>
+                        startups play a crucial role in driving innovation, economic growth, and job creation. 
+                        They are dynamic, adaptable, and often at the forefront of technological advancements, 
+                        making them a focal point of interest in the business world and beyond.
+                    </p>
+                    <div className='flex gap-10'>
+                        <aCard 
+                            imageSrc="./src/assets/cleanCode.svg"
+                            title="Clean code"
+                            description="Industry standard codes only." 
+                        />
+                        <aCard 
+                            imageSrc="./src/assets/morden.svg"
+                            title="Morden trend"
+                            description="Modern standard projects only." 
+                        />
+                    </div>
+                </div>
+            </div>
+            
         </div>
     );
 }
