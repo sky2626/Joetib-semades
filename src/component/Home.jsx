@@ -136,6 +136,22 @@ export default function Home(){
                     </div>
                 </div>
             </div>
+
+            {/* Contact Us */}
+            <div>
+                <div 
+                class="">
+                    <input
+                    class="rounded-lg text-lg bg-pro-300 h-6 p-4 "
+                    type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
+                    <input
+                    class="rounded-lg text-lg bg-pro-300 h-6 p-4 "
+                    type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
+                </div>
+                <img className='hidden md:block h-68 ' src="./src/assets/support.svg " alt="img of support" />
+
+                
+            </div>
             
         </div>
     );
