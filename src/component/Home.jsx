@@ -138,11 +138,11 @@ export default function Home(){
             </div>
 
             {/* Contact Us */}
-            <div className='flex '>
+            <div className='bg-black flex px-24 py-16 justify-center gap-40 '>
                 <div 
                 class="flex flex-col gap-2 items-center justify-center md:justify-start md:items-start ">
                     <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 w-68 md:w-96 p-5 "
+                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
                     type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
                     <input
                     class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
@@ -155,8 +155,17 @@ export default function Home(){
                         Submit
                     </button>
                 </div>
-                <img className='hidden md:block h-58 ' src="./src/assets/support.svg " alt="img of support" />
+                <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />
             </div> 
+
+            {/* donate */}
+            <div className='bg-gradient-to-l from-pro-300'>
+                <h2>Donate</h2>
+                <div>
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </div>
+            </div>
         </div>
     );
 }
