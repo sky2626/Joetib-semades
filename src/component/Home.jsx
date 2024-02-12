@@ -159,13 +159,18 @@ export default function Home(){
             </div> 
 
             {/* donate */}
-            <div className='bg-gradient-to-l from-pro-300'>
-                <h2>Donate</h2>
-                <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+            <div className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 nd:justify-between md:px-24 flex-col md:flex-row'>
+                <h2 className='text-2xl font-semibold text-slate-400'>Donate</h2>
+                <div className='text-white flex gap-10'>
+                    <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
+                    <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
                 </div>
             </div>
+
+            {/*  footer */}
+            <footer className='bg-black text-center font-semibold text-slate-500 p-4'>
+            &#169; Semdes
+            </footer>
         </div>
     );
 }
