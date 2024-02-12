@@ -156,8 +156,7 @@ export default function Home(){
                     </button>
                 </div>
                 <img className='hidden md:block h-58 ' src="./src/assets/support.svg " alt="img of support" />
-            </div>
-            
+            </div> 
         </div>
     );
 }
