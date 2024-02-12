@@ -107,7 +107,8 @@ export default function Home(){
             </div>
 
             {/* about us */}
-            <div className="p-12 md:p-24 flex flex-row gap-16">
+            <div 
+            className="p-12 md:p-24 flex flex-row gap-16">
                 <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
                 <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
                     <h2 className='text-white font-semibold text-2xl'>
@@ -138,7 +139,8 @@ export default function Home(){
             </div>
 
             {/* Contact Us */}
-            <div className='bg-black flex px-24 py-16 justify-center gap-40 '>
+            <div 
+            className='bg-black flex px-24 py-16 justify-center gap-40 '>
                 <div 
                 class="flex flex-col gap-2 items-center justify-center md:justify-start md:items-start ">
                     <input
@@ -159,7 +161,8 @@ export default function Home(){
             </div> 
 
             {/* donate */}
-            <div className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
+            <div 
+            className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
                 <h2 className='text-2xl font-semibold text-slate-400'>Donate</h2>
                 <div className='text-white flex gap-10 '>
                     <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
@@ -168,7 +171,8 @@ export default function Home(){
             </div>
 
             {/*  footer */}
-            <footer className='bg-black text-center font-semibold text-slate-500 p-4'>
+            <footer 
+            className='bg-black text-center font-semibold text-slate-500 p-4'>
             &#169; Semdes
             </footer>
         </div>

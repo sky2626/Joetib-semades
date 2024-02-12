@@ -6,29 +6,43 @@ export default function Navbar(){
 
   return(
     <nav className="bg-pro-200 flex  flex-row  justify-between  md:px-28">
-      <Link to='/' className="flex gap-1">
+      <Link to='/' className="flex items-center justify-center pl-6 gap-1">
         <img 
-        className="h-14 w-10" 
+        className="h-8" 
         src="./src/assets/Semades.png" 
         alt="img of semades" />
-        <div className="flex text-pro-100 p-3 font-semibold font-Cascadia">
+        <div 
+        className="flex text-pro-100 py-3 font-semibold font-Cascadia">
           Sema 
-          <span className="text-white font-semibold">des</span>
+          <span 
+          className="text-white font-semibold">des</span>
         </div>
       </Link>
       
       <ul className="flex flex-row gap-6 p-3 "> 
         <li>
-          <Link to='/' className="font-Cascadia font-semibold text-white hover:text-pro-100 ">Home</Link>
+          <Link to='/' 
+          className="font-Cascadia font-semibold text-white hover:text-pro-100 ">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to='/about' className="font-Cascadia font-semibold text-white hover:text-pro-100">About</Link>
+          <Link to='/about' 
+          className="font-Cascadia font-semibold text-white hover:text-pro-100">
+            About
+          </Link>
         </li>
         <li>
-          <Link to='/services' className="font-Cascadia font-semibold text-white hover:text-pro-100">Services</Link>
+          <Link to='/services' 
+          className="font-Cascadia font-semibold text-white hover:text-pro-100">
+            Services
+          </Link>
         </li>
         <li>
-          <Link to='/contact' className="font-Cascadia font-semibold text-white hover:text-pro-100">Contact</Link>
+          <Link to='/contact' 
+          className="font-Cascadia font-semibold text-white hover:text-pro-100">
+            Contact
+          </Link>
         </li>
       </ul>
                 
