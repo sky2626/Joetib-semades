@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import React from 'react';
-import Card from './miniComp/card';
+import Card from '../component/Card';
+import Footer from '../component/Footer'
 
 
 
@@ -9,8 +10,7 @@ import Card from './miniComp/card';
 
 export default function Home(){
     const [showMore, setShowMore] = useState(false);
-   
-    
+
     function handleMoreClick() {
         setShowMore(!showMore);
     }
@@ -55,8 +55,10 @@ export default function Home(){
                     className='text-white font-semibold text-center md:text-start text-5xl '>
                         What we <span className='text-pro-100'>do</span>
                     </h1>
-                    <div className='bg-pro-100 rounded-sm h-2 w-20 ml-12'></div>
-                    <p className='bg-pro-300 p-4 text-white rounded-lg md:w-96 '>
+                    <div 
+                    className='bg-pro-100 rounded-sm h-2 w-20 ml-12'></div>
+                    <p 
+                    className='bg-pro-300 p-4 text-white rounded-lg md:w-96 '>
                         web development encompasses the creation of websites and web applications, involving front-end, back-end, databases, and hosting.
                         Cloud infrastructure and services to create, deploy, and manage applications with advantages such as scalability, cost efficiency, 
                         and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
@@ -171,10 +173,7 @@ export default function Home(){
             </div>
 
             {/*  footer */}
-            <footer 
-            className='bg-black text-center font-semibold text-slate-500 p-4'>
-            &#169; Semdes
-            </footer>
+            <Footer />
         </div>
     );
 }

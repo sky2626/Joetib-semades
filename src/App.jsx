@@ -1,24 +1,26 @@
-import { useState } from 'react'
-import Navbar from './component/Navbar'
-import About from './component/About'
-import Services from './component/Services'
-import Home from './component/Home'
-import Contact from './component/Contact'
+import Header from './component/Header'
 import { Route, Routes } from 'react-router-dom'
+import { lazy, Suspense } from 'react'
+
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Services = lazy(() => import('./pages/Services'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 function App() {
   
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-      
+      <Header />
+      <Suspense>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </Suspense> 
     </>
   )
 }
