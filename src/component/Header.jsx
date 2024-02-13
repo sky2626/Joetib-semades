@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState} from "react";
-/* import Nav from "./Nav"; */
+import Nav from "./Nav";
+import BtnMenu from "./BtnMenu"
 
 
 export default function Navbar(){
  
   return(
     <nav 
-    className="bg-pro-200 flex  flex-row  justify-between  md:px-28">
+    className="bg-pro-200 flex  flex-row md:justify-between  md:px-28">
       <Link to='/' 
       className="flex items-center justify-center pl-6 gap-1">
         <img 
@@ -22,8 +23,11 @@ export default function Navbar(){
           className="text-white font-semibold">des</span>
         </div>
       </Link>
-      {/* <Nav /> */}         
+      <div className="hidden w-full p-5 justify-end md:flex">
+        <Nav /> 
+      </div>
     </nav>
+    
         
   );
 }

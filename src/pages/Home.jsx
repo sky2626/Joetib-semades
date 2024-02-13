@@ -43,7 +43,7 @@ export default function Home(){
             </div>
 
            {/*  our services */}
-            <div 
+            {/* <div 
             className='bg-black flex p-12 py-20 md:pl-28 flex-col md:flex-row'>
                 <div 
                 className="md:w-1/2 flex-col flex gap-3">
@@ -107,9 +107,9 @@ export default function Home(){
                 </div> 
 
             </div>
-
+ */}
             {/* about us */}
-            <div 
+            {/* <div 
             className="p-12 md:p-24 flex flex-row gap-16">
                 <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
                 <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
@@ -139,9 +139,9 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-
+ */}
             {/* Contact Us */}
-            <div 
+            {/* <div 
             className='bg-black flex px-24 py-16 justify-center gap-40 '>
                 <div 
                 class="flex flex-col gap-2 items-center justify-center md:justify-start md:items-start ">
@@ -160,20 +160,20 @@ export default function Home(){
                     </button>
                 </div>
                 <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />
-            </div> 
+            </div>  */}
 
             {/* donate */}
-            <div 
+            {/* <div 
             className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
                 <h2 className='text-2xl font-semibold text-slate-400'>Donate</h2>
                 <div className='text-white flex gap-10 '>
                     <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
                     <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
                 </div>
-            </div>
+            </div> */}
 
             {/*  footer */}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import{ useState } from "react"
 import Nav from "./Nav";
+import { Menu,X } from "lucide-react";
 
 export default function Btn() {
     coonst [isOpen, setIsOpen] = useState(false);
@@ -8,14 +9,12 @@ export default function Btn() {
     }
     
     return(
-        <div className="">
+        <div className="md:hidden">
             <button 
             onClick={toggleMenu}
             className="">
-                {isOpen ? <img src="./assets/close.svg" alt="close svg"/> : <img src="./assets/menu.svg" alt="menu svg" />}
+                {isOpen ? <Menu /> : <X />}
             </button>
-            {isOpen &&
-            <Nav />}
         </div>
     )
 }
