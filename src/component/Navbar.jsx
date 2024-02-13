@@ -1,12 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import { useState} from "react";
 
 
 export default function Navbar(){
 
+  const New = () => {
+    coonst [isOpen, setIsOpen] = useState(false);
+
+    const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+    }
+
+
+
   return(
-    <nav className="bg-pro-200 flex  flex-row  justify-between  md:px-28">
-      <Link to='/' className="flex items-center justify-center pl-6 gap-1">
+    <nav 
+    className="bg-pro-200 flex  flex-row  justify-between  md:px-28">
+      <Link to='/' 
+      className="flex items-center justify-center pl-6 gap-1">
         <img 
         className="h-8" 
         src="./src/assets/Semades.png" 
@@ -19,7 +32,8 @@ export default function Navbar(){
         </div>
       </Link>
       
-      <ul className="flex flex-row gap-6 p-3 "> 
+      <ul 
+      className="hidden flex-row gap-6 p-3 "> 
         <li>
           <Link to='/' 
           className="font-Cascadia font-semibold text-white hover:text-pro-100 ">
@@ -44,10 +58,15 @@ export default function Navbar(){
             Contact
           </Link>
         </li>
+        <div className="md:hidden">
+          <button onClick={toggleNavbar}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
       </ul>
                 
     </nav>
         
   );
 }
-
+}
