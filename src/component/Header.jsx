@@ -40,7 +40,9 @@ export default function Navbar(){
               (<FiMenu style={{ width:'32px', height:'32px' }} />)
             }
           </button>
-          heat
+          {toggleOpen &&
+          <Nav />
+          }
         </div>
       </div>
       
