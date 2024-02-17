@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { useState} from "react";
 import Nav from "./Nav";
 import BtnMenu from "./BtnMenu";
+import { MdClose } from 'react-icons/md'
 
 
 export default function Navbar(){
+  const [toggleOpen, setToggleOpen] = useState(false);
  
   return(
     <nav 
@@ -28,8 +30,14 @@ export default function Navbar(){
           <Nav /> 
         </div>
         <div className="md:hidden  flex py-4 pr-4 text-white justify-end">
-          <button>
-            
+          <button 
+          className=""
+          onClick={() => setToggleOpen((prev) => !prev) }>
+            {toggleOpen ? 
+            () 
+            : 
+            ()}
+
           </button>
           heat
         </div>
