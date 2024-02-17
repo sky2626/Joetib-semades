@@ -43,7 +43,7 @@ export default function Home(){
             </div>
 
            {/*  our services */}
-            {/* <div 
+            <div 
             className='bg-black flex p-12 py-20 md:pl-28 flex-col md:flex-row'>
                 <div 
                 className="md:w-1/2 flex-col flex gap-3">
@@ -107,9 +107,9 @@ export default function Home(){
                 </div> 
 
             </div>
- */}
+
             {/* about us */}
-            {/* <div 
+            <div 
             className="p-12 md:p-24 flex flex-row gap-16">
                 <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
                 <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
@@ -139,7 +139,7 @@ export default function Home(){
                     </div>
                 </div>
             </div>
- */}
+
             {/* Contact Us */}
             <div 
             className='bg-black flex px-24 py-16 justify-center md:gap-16 lg:gap- md:px-24 '>
@@ -172,8 +172,8 @@ export default function Home(){
                 </div>
             </div>
 
-            {/*  footer */}
-            {/* <Footer /> */}
+            {/*  foote r */}
+            <Footer />
         </div>
     );
 }

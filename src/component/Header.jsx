@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState} from "react";
 import Nav from "./Nav";
-import BtnMenu from "./BtnMenu"
+import BtnMenu from "./BtnMenu";
 
 
 export default function Navbar(){
@@ -30,5 +30,5 @@ export default function Navbar(){
     
         
   );
-}
+};
 
