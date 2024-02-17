@@ -19,7 +19,7 @@ export default function Home(){
             
            {/*  Hero section */}
             <div 
-            className="bg-gradient-to-l from-pro-300 flex flex-col md:flex-row gap-1" >
+            className="bg-gradient-to-l from-pro-300 to-pro-200 flex flex-col md:flex-row gap-1" >
                 <div className="flex flex-col justify-center p-12 md:pl-28 ">
                     <h1 
                     className="text-5xl text-white align-middle gap-2 font-bold ">

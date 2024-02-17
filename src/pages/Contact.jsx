@@ -1,3 +1,4 @@
+import Footer from '../component/Footer'
 
 
 export default function Contact () {
@@ -37,6 +38,9 @@ export default function Contact () {
                     <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />
                 </div> 
             </div>
+
+            {/*  foote r */}
+            <Footer />
         </div>
     );
 }
