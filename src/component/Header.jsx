@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState} from "react";
 import Nav from "./Nav";
-import BtnMenu from "./BtnMenu";
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi'
 
@@ -32,7 +31,7 @@ export default function Navbar(){
         </div>
         <div className="md:hidden  flex py-4 pr-4 text-white justify-end">
           <button 
-          className=""
+          className="hover:text-pro-100"
           onClick={() => setToggleOpen((prev) => !prev) }>
             {toggleOpen ? 
               ( <MdClose style={{ width:'32px', height:'32px' }} />) 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Nav(){
     return( 
     <>
+    <div className='block'>
         <Link to='/' 
         className="font-Cascadia font-semibold text-white px-4 hover:text-pro-100 ">
             Home
@@ -18,7 +19,9 @@ export default function Nav(){
         <Link to='/contact' 
         className="font-Cascadia font-semibold text-white px-4 hover:text-pro-100">
             Contact
-        </Link>   
+        </Link>
+    </div>
+           
     </>
     )
 }
