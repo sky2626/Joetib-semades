@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { useState} from "react";
 import Nav from "./Nav";
 import BtnMenu from "./BtnMenu";
-import { MdClose } from 'react-icons/md'
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi'
 
 
 export default function Navbar(){
@@ -34,10 +35,10 @@ export default function Navbar(){
           className=""
           onClick={() => setToggleOpen((prev) => !prev) }>
             {toggleOpen ? 
-            () 
-            : 
-            ()}
-
+              ( <MdClose style={{ width:'32px', height:'32px' }} />) 
+              : 
+              (<FiMenu style={{ width:'32px', height:'32px' }} />)
+            }
           </button>
           heat
         </div>
