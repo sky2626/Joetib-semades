@@ -22,9 +22,17 @@ export default function Contact () {
             className="bg-pro-200">
                 
                 <div 
-                className='bg-pro-200 flex px-24 py-16 justify-center md:gap-16 lg:gap- md:px-24 '>
-                    <div>
-                        <h1>Contact Information</h1>
+                className='bg-pro-200 flex flex-col px-4 md:px-24 '>
+                    <div className='py-4'>
+                        <h1 className='text-center text-2xl text-slate-500'>Contact Information</h1>
+                        <div className='flex flex-row justify-center items-center'>
+                            <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
+                            <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
+                        </div>
+                        <div className='flex flex-row justify-center items-center'>
+                            <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
+                            <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
+                        </div>
                         <div className='flex flex-row justify-center items-center'>
                             <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
                             <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
