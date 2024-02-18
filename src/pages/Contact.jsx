@@ -22,24 +22,29 @@ export default function Contact () {
             className="bg-pro-200">
                 
                 <div 
-                className='bg-pro-200 flex flex-col px-4 md:px-24 '>
-                    <div className='py-4'>
-                        <h1 className='text-center text-2xl text-slate-500'>Contact Information</h1>
-                        <div className='flex flex-row justify-center items-center'>
+                className='bg-pro-200 flex flex-col md:flex-row md:gap-4 md:py-8 px-4 md:px-24 '>
+                    <div 
+                    className='py-4'>
+                        <h1 
+                        className='text-center text-2xl text-slate-500'>Contact Information</h1>
+                        <div 
+                        className='flex flex-row justify-center items-center'>
                             <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
                             <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
                         </div>
-                        <div className='flex flex-row justify-center items-center'>
+                        <div 
+                        className='flex flex-row justify-center items-center'>
                             <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
                             <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
                         </div>
-                        <div className='flex flex-row justify-center items-center'>
+                        <div 
+                        className='flex flex-row justify-center items-center'>
                             <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
                             <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
                         </div>
                     </div>
                     <div 
-                    class="flex flex-col gap-2 md:justify-start md:items-start ">
+                    class="flex flex-col gap-2">
                         <input
                         class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
                         type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
