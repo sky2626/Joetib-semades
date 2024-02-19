@@ -22,7 +22,7 @@ export default function Home(){
             className="bg-gradient-to-l from-pro-300 to-pro-200 flex flex-col md:flex-row gap-1" >
                 <div className="flex flex-col justify-center p-12 md:pl-28 ">
                     <h1 
-                    className="text-5xl text-white align-middle gap-2 font-bold ">
+                    className="text-6xl md:text-7xl text-white align-middle gap-2 font-bold font-Cascadia ">
                         We are <span 
                         className="text-pro-100">
                             Creative </span>and<br /> <spanm 
@@ -31,12 +31,12 @@ export default function Home(){
                     </h1>      
                     <button
                     onClick={handleMoreClick}
-                    className="text-white bg-pro-100 h-10 rounded-lg mt-10 md:w-120 text-semibold">
+                    className="text-white bg-pro-100 h-10 rounded-lg mt-10 md:w-120 text-semibold font-Cascadia">
                         {showMore ? 'Hide' : 'Show'} details
                     </button>
                     {showMore && 
                     <p 
-                    className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 '>
+                    className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 font-Cascadia '>
                         Tackling a wide range of global issues is our main core focus. Education,Bussiness, Human Rights, Poverty Alleviation, Global Connectivity, and health fall in our scope.</p>}
                 </div>
                 <img className="hidden md:block max-w-full md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
@@ -48,17 +48,17 @@ export default function Home(){
                 <div 
                 className="md:w-1/2 flex-col flex gap-3">
                     <h2 
-                    className='text-pro-100 font-semibold text-center md:text-start text-2xl'>
+                    className='text-pro-100 font-semibold text-center md:text-start text-2xl font-Cascadia'>
                         Our Services
                     </h2>
                     <h1 
-                    className='text-white font-semibold text-center md:text-start text-5xl '>
+                    className='text-white font-semibold text-center md:text-start text-5xl font-Cascadia'>
                         What we <span className='text-pro-100'>do</span>
                     </h1>
                     <div 
                     className='bg-pro-100 rounded-sm h-2 w-20 ml-12'></div>
                     <p 
-                    className='bg-pro-300 p-4 text-white rounded-lg md:w-96 '>
+                    className='bg-pro-300 p-4 text-white rounded-lg md:w-96 font-Cascadia'>
                         web development encompasses the creation of websites and web applications, involving front-end, back-end, databases, and hosting.
                         Cloud infrastructure and services to create, deploy, and manage applications with advantages such as scalability, cost efficiency, 
                         and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
@@ -66,7 +66,7 @@ export default function Home(){
                     </p>
                     <Link 
                     to='/services' 
-                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-96'>
+                    className='bg-pro-100 text-white p-2 rounded-lg mt-2 text-center md:w-96 font-Cascadia'>
                         learn more
                     </Link>
                 </div>
@@ -113,14 +113,14 @@ export default function Home(){
             className="p-12 md:p-24 flex flex-row gap-16">
                 <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
                 <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
-                    <h2 className='text-white font-semibold text-2xl'>
+                    <h2 className='text-white font-semibold text-2xl font-Cascadia'>
                         About us
                     </h2>
-                    <h1 className='text-white font-semibold text-3xl md:text-5xl'>
+                    <h1 className='text-white font-semibold text-3xl md:text-5xl font-Cascadia'>
                      We Use <span className='text-pro-100 font-semibold text-3xl md:text-5xl'> Creativity</span> to Get Our Clients. 
                     </h1>
                     <div className='bg-pro-100 rounded-sm h-2 w-20'></div>
-                    <p className='text-white mt-2'>
+                    <p className='text-white mt-2 font-Cascadia'>
                         startups play a crucial role in driving innovation, economic growth, and job creation. 
                         They are dynamic, adaptable, and often at the forefront of technological advancements, 
                         making them a focal point of interest in the business world and beyond.
@@ -146,16 +146,16 @@ export default function Home(){
                 <div 
                 class="flex flex-col gap-2 md:justify-start md:items-start ">
                     <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
+                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 font-Cascadia "
                     type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
                     <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
+                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 font-Cascadia"
                     type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
                     <textarea 
-                    className='bg-pro-300 rounded-lg p-4 text-lg md:w-96 '
+                    className='bg-pro-300 rounded-lg p-4 text-lg md:w-96 font-Cascadia'
                     name="message" id="message" placeholder="Please write your message here." cols="30" rows="5"></textarea>
                     <button 
-                    class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2 md:w-96">
+                    class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2 md:w-96 font-Cascadia">
                         Submit
                     </button>
                 </div>
@@ -165,7 +165,7 @@ export default function Home(){
             {/* donate */}
             <div 
             className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
-                <h2 className='text-2xl font-semibold text-slate-400'>Donate</h2>
+                <h2 className='text-2xl font-semibold text-slate-400 font-Cascadia'>Donate</h2>
                 <div className='text-white flex gap-10 '>
                     <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
                     <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
