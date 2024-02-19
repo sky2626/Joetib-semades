@@ -29,18 +29,46 @@ export default function Contact () {
                         className='text-center text-2xl text-slate-500'>Contact Information</h1>
                         <div 
                         className='flex flex-row justify-center items-center'>
-                            <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
-                            <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
+                            <img 
+                            className='h-16 p-4' 
+                            src="../src/assets/phone-call.svg" 
+                            alt="phone img" />
+                            <div className='flex flex-col'>
+                                <a 
+                                className='text-slate-500' 
+                                href="tel:+233546383716">
+                                    +233546383716
+                                </a>
+                                <a 
+                                className='text-slate-500' 
+                                href="tel:+233546383716">
+                                    +233546383716
+                                </a>
+                            </div>
                         </div>
                         <div 
                         className='flex flex-row justify-center items-center'>
-                            <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
-                            <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
+                            <img 
+                            className='h-16 p-4' 
+                            src="../src/assets/mail.svg" 
+                            alt="mail img" />
+                            <a 
+                            className='text-slate-500' 
+                            href="mailto:webmaster@example.com">
+                                semades@mail.gh
+                            </a>
                         </div>
                         <div 
                         className='flex flex-row justify-center items-center'>
-                            <img className='h-16 p-4' src="../src/assets/mail.svg" alt="mail img" />
-                            <a className='text-xl text-slate-500' href="mailto:webmaster@example.com">semades@mail.gh</a>
+                            <img 
+                            className='h-16 p-4 text-pro-100' 
+                            src="../src/assets/location.svg" 
+                            alt="location img" />
+                            <a 
+                            className='text-slate-500' 
+                            href="mailto:webmaster@example.com">
+                                Remote
+                            </a>
                         </div>
                     </div>
                     <div 
