@@ -22,7 +22,7 @@ export default function Contact () {
             className="bg-pro-200">
                 
                 <div 
-                className='bg-pro-200 flex flex-col md:flex-row md:gap-4 px-4 p-12'>
+                className='bg-pro-200 flex flex-col gap-4 md:flex-row md:gap-4 px-4 p-12'>
                     <div 
                     className='flex flex-col bg-pro-300 rounded-md p-6'>
                         <h1 
@@ -31,10 +31,10 @@ export default function Contact () {
                             <div 
                             className='flex flex-row p-2 justify-center items-center'>
                                 <img 
-                                className='h-16 p-4 font-Cascadia' 
+                                className='h-12 p-2 font-Cascadia' 
                                 src="../src/assets/phone-call.svg" 
                                 alt="phone img" />
-                                <div className='flex flex-col'>
+                                <div className='flex flex-col pl-4'>
                                     <a 
                                     className='text-slate-500 font-Cascadia' 
                                     href="tel:+233546383716">
@@ -50,11 +50,11 @@ export default function Contact () {
                             <div 
                             className='flex flex-row p-2 justify-center items-center'>
                                 <img 
-                                className='h-16 p-4 ' 
+                                className='h-12 p-2 ' 
                                 src="../src/assets/mail.svg" 
                                 alt="mail img" />
                                 <a 
-                                className='text-slate-500 font-Cascadia' 
+                                className='text-slate-500 font-Cascadia pl-4' 
                                 href="mailto:webmaster@example.com">
                                     semades@mail.gh
                                 </a>
@@ -62,11 +62,11 @@ export default function Contact () {
                             <div 
                             className='flex flex-row p-2 justify-center items-center'>
                                 <img 
-                                className='h-16 p-4 font-Cascadia' 
+                                className='h-12 p-2 font-Cascadia' 
                                 src="../src/assets/location.svg" 
                                 alt="location img" />
                                 <a 
-                                className='text-slate-500 font-Cascadia' 
+                                className='text-slate-500 font-Cascadia p-4' 
                                 href="mailto:webmaster@example.com">
                                     Remote
                                 </a>
