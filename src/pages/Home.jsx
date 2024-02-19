@@ -22,7 +22,7 @@ export default function Home(){
             className="bg-gradient-to-l from-pro-300 to-pro-200 flex flex-col md:flex-row gap-1" >
                 <div className="flex flex-col justify-center p-12 md:pl-28 ">
                     <h1 
-                    className="text-6xl md:text-7xl text-white align-middle gap-2 font-bold font-Cascadia ">
+                    className="text-6xl md:text-7xl text-white align-middle gap-2 font-semibold font-Cascadia ">
                         We are <span 
                         className="text-pro-100">
                             Creative </span>and<br /> <spanm 

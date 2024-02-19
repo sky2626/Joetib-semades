@@ -22,68 +22,70 @@ export default function Contact () {
             className="bg-pro-200">
                 
                 <div 
-                className='bg-pro-200 flex flex-col md:flex-row md:gap-4 md:py-8 px-4 md:px-24 '>
+                className='bg-pro-200 flex flex-col md:flex-row md:gap-4 px-4 p-12'>
                     <div 
-                    className='py-4'>
+                    className='flex flex-col bg-pro-300 rounded-md p-6'>
                         <h1 
-                        className='text-center text-2xl text-slate-500'>Contact Information</h1>
-                        <div 
-                        className='flex flex-row justify-center items-center'>
-                            <img 
-                            className='h-16 p-4' 
-                            src="../src/assets/phone-call.svg" 
-                            alt="phone img" />
-                            <div className='flex flex-col'>
+                        className='text-2xl text-center text-slate-500 font-Cascadia'>Contact Information</h1>
+                        <div className='flex justify-start items-start flex-col'>
+                            <div 
+                            className='flex flex-row p-2 justify-center items-center'>
+                                <img 
+                                className='h-16 p-4 font-Cascadia' 
+                                src="../src/assets/phone-call.svg" 
+                                alt="phone img" />
+                                <div className='flex flex-col'>
+                                    <a 
+                                    className='text-slate-500 font-Cascadia' 
+                                    href="tel:+233546383716">
+                                        +233546383716
+                                    </a>
+                                    <a 
+                                    className='text-slate-500 font-Cascadia' 
+                                    href="tel:+233546383716">
+                                        +233546383716
+                                    </a>
+                                </div>
+                            </div>
+                            <div 
+                            className='flex flex-row p-2 justify-center items-center'>
+                                <img 
+                                className='h-16 p-4 ' 
+                                src="../src/assets/mail.svg" 
+                                alt="mail img" />
                                 <a 
-                                className='text-slate-500' 
-                                href="tel:+233546383716">
-                                    +233546383716
-                                </a>
-                                <a 
-                                className='text-slate-500' 
-                                href="tel:+233546383716">
-                                    +233546383716
+                                className='text-slate-500 font-Cascadia' 
+                                href="mailto:webmaster@example.com">
+                                    semades@mail.gh
                                 </a>
                             </div>
-                        </div>
-                        <div 
-                        className='flex flex-row justify-center items-center'>
-                            <img 
-                            className='h-16 p-4' 
-                            src="../src/assets/mail.svg" 
-                            alt="mail img" />
-                            <a 
-                            className='text-slate-500' 
-                            href="mailto:webmaster@example.com">
-                                semades@mail.gh
-                            </a>
-                        </div>
-                        <div 
-                        className='flex flex-row justify-center items-center'>
-                            <img 
-                            className='h-16 p-4 text-pro-100' 
-                            src="../src/assets/location.svg" 
-                            alt="location img" />
-                            <a 
-                            className='text-slate-500' 
-                            href="mailto:webmaster@example.com">
-                                Remote
-                            </a>
+                            <div 
+                            className='flex flex-row p-2 justify-center items-center'>
+                                <img 
+                                className='h-16 p-4 font-Cascadia' 
+                                src="../src/assets/location.svg" 
+                                alt="location img" />
+                                <a 
+                                className='text-slate-500 font-Cascadia' 
+                                href="mailto:webmaster@example.com">
+                                    Remote
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div 
                     class="flex flex-col gap-2">
                         <input
-                        class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
+                        class="rounded-lg text-lg bg-pro-300 h-6 p-5 "
                         type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
                         <input
-                        class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 "
+                        class="rounded-lg text-lg bg-pro-300 h-6 p-5 "
                         type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
                         <textarea 
-                        className='bg-pro-300 rounded-lg p-4 text-lg md:w-96 '
+                        className='bg-pro-300 rounded-lg p-4 text-lg '
                         name="message" id="message" placeholder="Please write your message here." cols="30" rows="5"></textarea>
                         <button 
-                        class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2 md:w-96">
+                        class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2">
                             Submit
                         </button>
                     </div>
