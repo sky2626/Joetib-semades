@@ -142,24 +142,23 @@ export default function Home(){
 
             {/* Contact Us */}
             <div 
-            className='bg-black flex px-24 py-16 justify-center md:gap-16 lg:gap- md:px-24 '>
-                <div 
-                class="flex flex-col gap-2 md:justify-start md:items-start ">
-                    <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 font-Cascadia "
-                    type="text" id="full name" name="full Name" placeholder="Name" autocomplere="off" required />
-                    <input
-                    class="rounded-lg text-lg bg-pro-300 h-6 md:w-96 p-5 font-Cascadia"
-                    type="text" id="email" name="email" placeholder="Email" autocomplere="off" required />
-                    <textarea 
-                    className='bg-pro-300 rounded-lg p-4 text-lg md:w-96 font-Cascadia'
-                    name="message" id="message" placeholder="Please write your message here." cols="30" rows="5"></textarea>
-                    <button 
-                    class="text-white h-10 rounded-lg text-semibold bg-green-600 p-2 md:w-96 font-Cascadia">
-                        Submit
-                    </button>
+            className='bg-black flex px-24 py-16 justify-center items-center md:gap-16 lg:gap- md:px-24 '>
+                <div class="container mx-auto p-8 mt-8 bg-pro-300 rounded-md shadow-md max-w-md">
+                    <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
+                    <form action="mailto:semades@mail.com" method="post">
+                        <label class="block text-slate-400 text-sm font-bold mb-2" for="name">Name:</label>
+                        <input class="w-full bg-pro-300 p-2 border border-slate-500  text-slate-400 rounded-md" type="text" id="name" name="name" required />
+                        <label class="block text-slate-400 text-sm font-bold mb-2" for="email">Email:</label>
+                        <input class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md" type="email" id="email" name="email" required />
+                        <label class="block text-slate-400 text-sm font-bold mb-2" for="message">Message:</label>
+                        <textarea class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md" id="message" name="message" rows="4" required></textarea>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-green-700" type="submit">Submit</button>
+                    </form>
                 </div>
-                <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />
+                <div className=''>
+                    <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />  
+                </div>
+                
             </div> 
 
             {/* donate */}
