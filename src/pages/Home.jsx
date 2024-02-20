@@ -142,8 +142,8 @@ export default function Home(){
 
             {/* Contact Us */}
             <div 
-            className='bg-black flex px-24 py-16 justify-center items-center md:gap-16 lg:gap- md:px-24 '>
-                <div class="container mx-auto p-8 mt-8 bg-pro-300 rounded-md shadow-md max-w-md">
+            className='bg-black flex py-16 justify-center items-center md:gap-12 md:px-24 '>
+                <div class="container mx-auto p-8 bg-pro-300 rounded-md shadow-md max-w-md">
                     <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                     <form action="mailto:semades@mail.com" method="post">
                         <label class="block text-slate-400 text-sm font-bold mb-2" for="name">Name:</label>
@@ -156,7 +156,7 @@ export default function Home(){
                     </form>
                 </div>
                 <div className=''>
-                    <img className='hidden md:block h-80 ' src="./src/assets/support.svg " alt="img of support" />  
+                    <img className='hidden md:block h-64 ' src="./src/assets/support.svg " alt="img of support" />  
                 </div>
                 
             </div> 
