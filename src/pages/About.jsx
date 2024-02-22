@@ -1,4 +1,4 @@
-import Card from "../component/Card";
+import AbCardX from "../component/AbCardX";
 import AbCard from "../component/AbCard";
 
 
@@ -22,7 +22,7 @@ export default function About() {
 
             <div className="bg-pro-200">
                 <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
-                    <Card
+                    <AbCardX
                         imageSrc="./src/assets/web.svg"
                         title="Web Development"
                         description="This is a sample card description." 
@@ -30,14 +30,14 @@ export default function About() {
                 </div>
             </div>
 
-            <div>
+            <div className="bg-pro-200">
                 <h1 className="text-center">
                     Meet the team leaders
                 </h1>
                 <h3 className="text-center">
                     let them handle all your needs.
                 </h3>
-                <div>
+                <div> 
                     <AbCard
                         imageSrc="./src/assets/"
                         name="skyoga" 
