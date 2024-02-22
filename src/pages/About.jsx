@@ -1,3 +1,5 @@
+import Card from "../component/Card";
+import AbCard from "../component/AbCard";
 
 
 export default function About() {
@@ -16,7 +18,34 @@ export default function About() {
                     and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
                     enable computers to learn from data and make predictions or decisions without explicit programming.
                 </p>
-            </div>   
+            </div>  
+
+            <div className="bg-pro-200">
+                <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
+                    <Card
+                        imageSrc="./src/assets/web.svg"
+                        title="Web Development"
+                        description="This is a sample card description." 
+                    />
+                </div>
+            </div>
+
+            <div>
+                <h1>
+                    Meet the team leaders
+                </h1>
+                <h3>
+                    let them handle all your needs.
+                </h3>
+                <div>
+                    <AbCard
+                        imageSrc="./src/assets/"
+                        name="skyoga" 
+                        title="UI/Ux designer"
+                    />
+
+                </div>
+            </div>
         </div>
     );
 }
