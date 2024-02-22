@@ -31,10 +31,10 @@ export default function About() {
             </div>
 
             <div>
-                <h1>
+                <h1 className="text-center">
                     Meet the team leaders
                 </h1>
-                <h3>
+                <h3 className="text-center">
                     let them handle all your needs.
                 </h3>
                 <div>
