@@ -8,11 +8,11 @@ export default function Contact () {
             <div 
             className="bg-gradient-to-r from-pro-300 to-pro-200 h-96 flex flex-col justify-center items-center">
                 <h1 
-                className="font-Cascadia font-extrabold text-5xl md:text-6xl text-center text-white px-4">
+                className="font-bold text-5xl md:text-6xl text-center text-white px-4">
                     Let's have a talk
                 </h1>
                 <p 
-                className="p-4 text-slate-400 text-center md:px-24 font-Cascadia">
+                className="p-4 text-slate-400 text-center md:px-24 ">
                 We're just one click away to help you take your brand or product from great to incredible. 
                 Fill in the form to share more details about your project or your problems. 
                 Either way, we’d love to talk.
@@ -20,11 +20,10 @@ export default function Contact () {
             </div> 
             <div 
             className="bg-pro-200">
-                
                 <div 
-                className='bg-pro-200 flex flex-col gap-4 md:justify-center md:items-center md:flex-row md:gap-4 px-4 p-12'>
+                className='bg-black flex justify-center items-center md:gap-4 md:overflow-hidden'>
                     <div 
-                    className='container mx-auto p-8 mt-8 bg-pro-300 rounded-md shadow-md max-w-md'>
+                    className='p-8 bg-pro-300 rounded-md'>
                         <h1 
                         className='text-2xl text-center text-slate-500 font-Cascadia'>Contact Information</h1>
                         <div className='flex justify-start items-start flex-col'>
@@ -75,7 +74,7 @@ export default function Contact () {
                     </div>
         
                     {/* form section */}
-                    <div class="container mx-auto p-8 mt-8 bg-pro-300 rounded-md shadow-md max-w-md">
+                    <div class="container p-8 bg-pro-300 rounded-md shadow-md max-w-md">
                         <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                         <form action="mailto:semades@mail.com" method="post">
                             <label class="block text-slate-400 text-sm font-bold mb-2" for="name">Name:</label>

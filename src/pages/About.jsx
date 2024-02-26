@@ -19,38 +19,7 @@ export default function About() {
                     and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
                     enable computers to learn from data and make predictions or decisions without explicit programming.
                 </p>
-            </div>  
-
-            <div className="bg-black flex  gap-4 flex-col md:gap-6 p-8 md:px-24 md:py-8">
-                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
-                    <AbCardX
-                        imageSrc="./src/assets/web.svg"
-                        title="Web Development"
-                        description="This is a sample card description." 
-                    />
-                </div>
-                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
-                    <AbCardX
-                        imageSrc="./src/assets/web.svg"
-                        title="Web Development"
-                        description="This is a sample card description." 
-                    />
-                </div>
-                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
-                    <AbCardX
-                        imageSrc="./src/assets/web.svg"
-                        title="Web Development"
-                        description="This is a sample card description." 
-                    />
-                </div>
-                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
-                    <AbCardX
-                        imageSrc="./src/assets/web.svg"
-                        title="Web Development"
-                        description="This is a sample card description." 
-                    />
-                </div>
-            </div>
+            </div>            
 
             <div className="bg-pro-200 px-8 py-8 md:px-24">
                 <h1 className="text-white text-center font-Cascadia">
