@@ -39,7 +39,7 @@ export default function Home(){
                     className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 font-Cascadia '>
                         Tackling a wide range of global issues is our main core focus. Education,Bussiness, Human Rights, Poverty Alleviation, Global Connectivity, and health fall in our scope.</p>}
                 </div>
-                <img className="hidden md:block max-w-full md:pl-64 md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
+                <img className="hidden md:block max-w-full items-end md:pl-64 md:overflow-hidden md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
             </div>
 
            {/*  our services */}
@@ -56,7 +56,7 @@ export default function Home(){
                         What we <span className='text-pro-100'>do</span>
                     </h1>
                     <div 
-                    className='bg-pro-100 rounded-sm h-2 w-20 ml-12'></div>
+                    className='bg-pro-100 rounded-sm h-2 w-20 ml-12 md:ml-0'></div>
                     <p 
                     className='bg-pro-300 p-4 text-white rounded-lg md:w-96 font-Cascadia'>
                         web development encompasses the creation of websites and web applications, involving front-end, back-end, databases, and hosting.
@@ -74,7 +74,7 @@ export default function Home(){
                 <div 
                 className="md:w-1/2 mt-10">
                     <div 
-                    className="grid gap-6 grid-cols-1 md:grid-cols-2 ">
+                    className="grid gap-6 grid-cols-1 md:grid-cols-2 md:overflow-hidden ">
                         <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
                             <Card
                                 imageSrc="./src/assets/web.svg"
@@ -116,8 +116,8 @@ export default function Home(){
                     <h2 className='text-white font-semibold text-2xl font-Cascadia'>
                         About us
                     </h2>
-                    <h1 className='text-white font-semibold text-3xl md:text-5xl font-Cascadia'>
-                     We Use <span className='text-pro-100 font-semibold text-3xl md:text-5xl'> Creativity</span> to Get Our Clients. 
+                    <h1 className='text-white font-semibold text-3xl md:text-5xl  font-Cascadia'>
+                     We Use <span className='text-pro-100 font-semibold text-3xl md:text-5xl '> Creativity</span> to Get Our Clients. 
                     </h1>
                     <div className='bg-pro-100 rounded-sm h-2 w-20'></div>
                     <p className='text-white mt-2 font-Cascadia'>
@@ -142,7 +142,7 @@ export default function Home(){
 
             {/* Contact Us */}
             <div 
-            className='bg-black flex py-16 justify-center items-center md:gap-12 md:px-24 '>
+            className='bg-black flex py-16 justify-center items-center md:gap-12 md:overflow-hidden'>
                 <div class="container mx-auto p-8 bg-pro-300 rounded-md shadow-md max-w-md">
                     <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                     <form action="mailto:semades@mail.com" method="post">
@@ -155,7 +155,7 @@ export default function Home(){
                         <button class="bg-green-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-green-700" type="submit">Submit</button>
                     </form>
                 </div>
-                <div className=''>
+                <div className='flex justify-center items-center'>
                     <img className='hidden md:block h-64 ' src="./src/assets/support.svg " alt="img of support" />  
                 </div>
                 
@@ -166,8 +166,14 @@ export default function Home(){
             className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
                 <h2 className='text-2xl font-semibold text-slate-400 font-Cascadia'>Donate</h2>
                 <div className='text-white flex gap-10 '>
-                    <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
-                    <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
+                    <a href="#">
+                        <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
+                    </a>
+                    <a href="#">
+                        <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
+                    </a>
+                    
+                    
                 </div>
             </div>
 

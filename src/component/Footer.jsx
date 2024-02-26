@@ -50,7 +50,7 @@ export default function Footer(){
                         </svg>
                     </a>
                 </div>
-                <hr className="bg-pro-100 mb-1" />
+                
             &#169; Semdes
         </footer>
     );
