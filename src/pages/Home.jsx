@@ -20,9 +20,9 @@ export default function Home(){
            {/*  Hero section */}
             <div 
             className="bg-gradient-to-l from-pro-300 to-pro-200 flex flex-col md:flex-row gap-1" >
-                <div className="flex flex-col justify-center p-12 md:pl-28 ">
+                <div className="flex flex-col justify-center px-8 py-12 md:pl-28 ">
                     <h1 
-                    className="text-6xl md:text-7xl text-white align-middle gap-2 font-semibold font-Cascadia ">
+                    className="text-6xl md:text-7xl text-white align-middle gap-2 font-bold">
                         We are <span 
                         className="text-pro-100">
                             Creative </span>and<br /> <spanm 
@@ -44,7 +44,7 @@ export default function Home(){
 
            {/*  our services */}
             <div 
-            className='bg-black flex p-12 py-20 md:pl-28 flex-col md:flex-row'>
+            className='bg-black flex px-8 py-20 md:pl-28 flex-col md:flex-row'>
                 <div 
                 className="md:w-1/2 flex-col flex gap-3">
                     <h2 
@@ -110,7 +110,7 @@ export default function Home(){
 
             {/* about us */}
             <div 
-            className="p-12 md:p-24 flex flex-row gap-16">
+            className="px-8 py-12 md:p-24 flex flex-row gap-16">
                 <img className='hidden md:block h-68 ' src="./src/assets/about.svg " alt="img of about" />
                 <div className="flex gap-2 flex-col items-center justify-center md:justify-start md:items-start">
                     <h2 className='text-white font-semibold text-2xl font-Cascadia'>
@@ -166,10 +166,12 @@ export default function Home(){
             className='bg-gradient-to-l from-pro-300 flex items-center gap-4 p-4 md:justify-between md:gap-32 lg:gap-52 md:px-24 md:py-9 flex-col md:flex-row'>
                 <h2 className='text-2xl font-semibold text-slate-400 font-Cascadia'>Donate</h2>
                 <div className='text-white flex gap-10 '>
-                    <a href="#">
+                    <a href="#" 
+                    className='hover:bg-pro-200 rounded-lg p-4'>
                         <img className='h-10 md:h-16' src="./src/assets/paypal.svg" alt="img of paypal" />
                     </a>
-                    <a href="#">
+                    <a href="#"
+                    className='hover:bg-pro-200 rounded-lg p-4'>
                         <img className='h-14 md:h-16' src="./src/assets/bitcoin.svg" alt="image of paypal" />
                     </a>
                     
