@@ -36,7 +36,7 @@ export default function Home(){
                     </button>
                     {showMore && 
                     <p 
-                    className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 font-Cascadia '>
+                    className='bg-pro-300 mt-0 p-4 text-white rounded-lg md:w-120 '>
                         Tackling a wide range of global issues is our main core focus. Education,Bussiness, Human Rights, Poverty Alleviation, Global Connectivity, and health fall in our scope.</p>}
                 </div>
                 <img className="hidden md:block max-w-full items-end md:pl-64 md:overflow-hidden md:h-120 md:pt-2" src="./src/assets/globe.svg" alt="svg of globe" />
@@ -58,7 +58,7 @@ export default function Home(){
                     <div 
                     className='bg-pro-100 rounded-sm h-2 w-20 ml-12 md:ml-0'></div>
                     <p 
-                    className='bg-pro-300 p-4 text-white rounded-lg md:w-96 font-Cascadia'>
+                    className='bg-pro-300 p-4 text-white rounded-lg md:w-96 '>
                         web development encompasses the creation of websites and web applications, involving front-end, back-end, databases, and hosting.
                         Cloud infrastructure and services to create, deploy, and manage applications with advantages such as scalability, cost efficiency, 
                         and flexibility. Machine learning is a subset of artificial intelligence (AI) that focuses on creating algorithms and models that 
@@ -120,7 +120,7 @@ export default function Home(){
                      We Use <span className='text-pro-100 font-semibold text-3xl md:text-5xl '> Creativity</span> to Get Our Clients. 
                     </h1>
                     <div className='bg-pro-100 rounded-sm h-2 w-20'></div>
-                    <p className='text-white mt-2 font-Cascadia'>
+                    <p className='text-white mt-2 '>
                         startups play a crucial role in driving innovation, economic growth, and job creation. 
                         They are dynamic, adaptable, and often at the forefront of technological advancements, 
                         making them a focal point of interest in the business world and beyond.
@@ -143,7 +143,7 @@ export default function Home(){
             {/* Contact Us */}
             <div 
             className='bg-black flex py-16 justify-center items-center md:gap-12 md:overflow-hidden'>
-                <div class="container mx-auto p-8 bg-pro-300 rounded-md shadow-md max-w-md">
+                <div class="container p-8 bg-pro-300 rounded-md shadow-md max-w-md">
                     <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                     <form action="mailto:semades@mail.com" method="post">
                         <label class="block text-slate-400 text-sm font-bold mb-2" for="name">Name:</label>
@@ -156,7 +156,7 @@ export default function Home(){
                     </form>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <img className='hidden md:block h-64 ' src="./src/assets/support.svg " alt="img of support" />  
+                    <img className='hidden md:block h-64 md:overflow-hidden' src="./src/assets/support.svg " alt="img of support" />  
                 </div>
                 
             </div> 
