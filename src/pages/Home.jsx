@@ -142,7 +142,7 @@ export default function Home(){
 
             {/* Contact Us */}
             <div 
-            className='bg-black flex py-16 justify-center items-center md:gap-12 md:overflow-hidden'>
+            className='bg-black flex py-16 justify-center items-center md:gap-24 md:overflow-hidden'>
                 <div class="container p-8 bg-pro-300 rounded-md shadow-md max-w-md">
                     <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                     <form action="mailto:semades@mail.com" method="post">
@@ -155,7 +155,7 @@ export default function Home(){
                         <button class="bg-green-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-green-700" type="submit">Submit</button>
                     </form>
                 </div>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center h-80'>
                     <img className='hidden md:block h-64 md:overflow-hidden' src="./src/assets/support.svg " alt="img of support" />  
                 </div>
                 
