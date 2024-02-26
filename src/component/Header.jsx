@@ -4,9 +4,7 @@ import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 
 function Navbar() {
-  // nav is starting off false
   const [nav, setNav] = useState(false)
-  // so when user clicks the hamburger button, it goes from false(!nav) to true(nav)
   const handleClick = () => setNav(!nav)
 
   return (
