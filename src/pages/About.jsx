@@ -1,5 +1,6 @@
 import AbCardX from "../component/AbCardX";
 import AbCard from "../component/AbCard";
+import Footer from "../component/Footer";
 
 
 export default function About() {
@@ -20,8 +21,29 @@ export default function About() {
                 </p>
             </div>  
 
-            <div className="bg-pro-200">
-                <div className="bg-pro-200 w-62 md:w-56 rounded-lg">
+            <div className="bg-black flex  gap-4 flex-col md:gap-6 p-8 md:px-24 md:py-8">
+                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
+                    <AbCardX
+                        imageSrc="./src/assets/web.svg"
+                        title="Web Development"
+                        description="This is a sample card description." 
+                    />
+                </div>
+                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
+                    <AbCardX
+                        imageSrc="./src/assets/web.svg"
+                        title="Web Development"
+                        description="This is a sample card description." 
+                    />
+                </div>
+                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
+                    <AbCardX
+                        imageSrc="./src/assets/web.svg"
+                        title="Web Development"
+                        description="This is a sample card description." 
+                    />
+                </div>
+                <div className="bg-pro-200 p-8 rounded-2xl justify-center items-center">
                     <AbCardX
                         imageSrc="./src/assets/web.svg"
                         title="Web Development"
@@ -30,14 +52,14 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="bg-pro-200 px-8 md:px-24">
+            <div className="bg-pro-200 px-8 py-8 md:px-24">
                 <h1 className="text-white text-center font-Cascadia">
                     Meet the team leaders
                 </h1>
                 <h3 className="text-center text-slate-600 font-Cascadia text-xl">
                     let them handle all your needs.
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3"> 
+                <div className="grid grid-cols-1 md:grid-cols-3 py-4"> 
                     <AbCard
                         imageSrc="./src/assets/img-1.png"
                         name="skyoga" 
@@ -53,9 +75,9 @@ export default function About() {
                         name="skyoga" 
                         title="UI/Ux designer"
                     />
-
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
