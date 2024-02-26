@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Nav(){
     return( 
     <>
-    <div className='block'>
+    <ul className='hidden md:flex'>
         <Link to='/' 
         className="font-Cascadia font-semibold text-white px-4 hover:text-pro-100 ">
             Home
@@ -20,7 +20,7 @@ export default function Nav(){
         className="font-Cascadia font-semibold text-white px-4 hover:text-pro-100">
             Contact
         </Link>
-    </div>
+    </ul>
            
     </>
     )
