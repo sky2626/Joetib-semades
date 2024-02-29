@@ -78,11 +78,11 @@ export default function Contact () {
                         <h1 class="text-2xl font-semibold mb-6 text-slate-400">Contact Us</h1>
                         <form action="mailto:semades@mail.com" method="post">
                             <label class="block text-slate-400 text-sm font-bold mb-2" for="name">Name:</label>
-                            <input class="w-full bg-pro-300 p-2 border border-slate-500  text-slate-400 rounded-md" type="text" id="name" name="name" required />
+                            <input class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md focus:outline-none focus:ring-1 focus:ring-sky-500 invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500" type="text" id="name" name="name" required />
                             <label class="block text-slate-400 text-sm font-bold mb-2" for="email">Email:</label>
-                            <input class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md" type="email" id="email" name="email" required />
+                            <input class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md focus:outline-none focus:ring-1 focus:ring-sky-500 invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500" type="text" id="name" name="name" required />
                             <label class="block text-slate-400 text-sm font-bold mb-2" for="message">Message:</label>
-                            <textarea class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md" id="message" name="message" rows="4" required></textarea>
+                            <textarea class="w-full bg-pro-300 p-2 border border-slate-500 text-slate-400 rounded-md  invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500" id="message" name="message" rows="4" required></textarea>
                             <button class="bg-green-600 text-white px-4 py-2 rounded-md mt-4 hover:bg-green-700" type="submit">Submit</button>
                         </form>
                     </div>
