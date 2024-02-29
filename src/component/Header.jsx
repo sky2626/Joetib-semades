@@ -24,22 +24,22 @@ function Navbar() {
       </Link>
       <ul className='hidden  md:flex gap-4 '>
         <Link
-        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100' 
+        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100 focus:text-pro-100' 
         to='/'>
           <li>Home</li>
         </Link>
         <Link
-        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100' 
+        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100 focus:text-pro-100' 
         to='/about'>
           <li>About</li>
         </Link>
         <Link
-        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100' 
+        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100 focus:text-pro-100' 
         to='/services'>
           <li>Services</li>
         </Link>
         <Link
-        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100' 
+        className='font-Cascadia font-semibold text-white px-4 hover:text-pro-100 focus:text-pro-100' 
         to='/contact'>
           <li>Contact</li>
         </Link>
